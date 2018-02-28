@@ -1,7 +1,7 @@
 # Except on test logger
 
 
-A really simple console.log wrapper that only logs to stdout if `process.env.NODE_ENV` is set to anythin different than `test`, so it does not pollute your test suite.
+A really simple console.log wrapper that only logs to stdout if `process.env.NODE_ENV` is set to anything different than `test`, so it does not pollute your test suite.
 
 ## Installation
 
