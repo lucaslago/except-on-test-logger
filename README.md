@@ -4,6 +4,8 @@ A really simple console wrapper that only logs to stdout if `process.env.NODE_EN
 
 **Works for any console method.**
 
+**Made for node.js runtime.**
+
 ## Installation
 
 `npm install except-on-test-logger --save`

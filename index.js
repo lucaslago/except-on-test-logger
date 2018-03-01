@@ -1,5 +1,5 @@
-module.exports = new Proxy( { }, {
+module.exports = new Proxy( console, {
   get: function ( target, prop ) {
-    return process.env.NODE_ENV === 'test' ? () => { } : console[prop];
+    return process.env.NODE_ENV === 'test' ? () => { } : target[prop];
   }
 });
