@@ -1,7 +1,5 @@
-const log = value => {
-  if (process.env.NODE_ENV !== 'test') {
-    console.log(value);
+module.exports = new Proxy( { }, {
+  get: function ( target, prop ) {
+    return process.env.NODE_ENV === 'test' ? () => { } : console[prop];
   }
-};
-
-module.exports = { log };
+});
