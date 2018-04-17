@@ -20,6 +20,7 @@ const logger = require('except-on-test-logger');
 logger.log('hello');
 
 process.env.NODE_ENV = 'production';
+
 // this gets printed to to stdout
 logger.log('hello');
 
