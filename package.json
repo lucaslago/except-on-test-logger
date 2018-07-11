@@ -1,6 +1,6 @@
 {
   "name": "except-on-test-logger",
-  "version": "2.1.1",
+  "version": "2.2.1",
   "description": "A simple console wrapper that does not pollute your test suite.",
   "main": "index.js",
   "scripts": {
