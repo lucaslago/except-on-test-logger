@@ -1,15 +1,21 @@
 {
   "name": "except-on-test-logger",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "description": "A simple console wrapper that does not pollute your test suite.",
   "main": "index.js",
   "scripts": {
     "test": "mocha index.spec.js"
   },
-  "keywords": ["logger", "console"],
+  "keywords": [
+    "logger",
+    "console"
+  ],
   "author": "Lucas Lago",
   "contributors": [
-    { "name" : "Stéfano Zanata", "url" : "szanata.com" }
+    {
+      "name": "Stéfano Zanata",
+      "url": "szanata.com"
+    }
   ],
   "repository": {
     "type": "git",
